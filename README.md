@@ -77,8 +77,49 @@ npm install gulp --save-dev
 ```
 Which will add below code to package.json file.
 ```markdown
-  "devDependencies": {
-    "gulp": "^3.9.1"
-  }
+"devDependencies": {
+  "gulp": "^3.9.1"
+}
+```
+## Now Add below file to root directory.
+###gulpfile.js
+
+Then paste below content to file.
+
+```markdown
+var gulp = require('gulp');
+
+// where task1 is gulp task which will be excuted.
+gulp.task('task1', function(){
+    console.log('### Task 1 executed ###');
+});
 ```
 
+## Run below command.
+```markdown
+gulp task1
+```
+
+###Incase it gives below error then we have to install gulp at machine level.
+
+```markdown
+The term 'gulp' is not recognized as the name of a cmdlet
+```
+
+To resolve issue execute below command in cmd.
+```markdown
+npm install -g gulp
+```
+
+Now you are able to see below output after executing.
+```markdown
+gulp task1
+```
+
+## Output
+```markdown
+[18:32:31] Using gulpfile C:\GulpBasicDemo\gulpfile.js
+[18:32:31] Starting 'task1'...
+### Task 1 executed ###
+[18:32:31] Finished 'task1' after 485 μs
+```
