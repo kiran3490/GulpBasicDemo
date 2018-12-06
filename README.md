@@ -82,7 +82,9 @@ Which will add below code to package.json file.
 }
 ```
 ## Now Add below file to root directory.
-###gulpfile.js
+```markdown
+gulpfile.js
+```
 
 Then paste below content to file.
 
@@ -100,13 +102,13 @@ gulp.task('task1', function(){
 gulp task1
 ```
 
-###Incase it gives below error then we have to install gulp at machine level.
+Incase it gives below error then we have to install gulp at machine level.
 
 ```markdown
 The term 'gulp' is not recognized as the name of a cmdlet
 ```
 
-To resolve issue execute below command in cmd.
+To resolve above issue execute below command in cmd.
 ```markdown
 npm install -g gulp
 ```
