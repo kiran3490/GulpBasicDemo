@@ -33,7 +33,7 @@ Enter
 yes
 ```
 
-###Magic …!!!!###
+Magic …!!!!
 
 
 There is one file generated in your project directory.
@@ -71,3 +71,14 @@ With below content.
   "homepage": "https://github.com/kiran3490/GulpBasicDemo#readme"
 }                                                                                                                                       
 ```
+## Execute below command to add gulp.
+```markdown
+npm install gulp --save-dev
+```
+Which will add below code to package.json file.
+```markdown
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
+```
+

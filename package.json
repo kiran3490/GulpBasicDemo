@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/kiran3490/GulpBasicDemo/issues"
   },
-  "homepage": "https://github.com/kiran3490/GulpBasicDemo#readme"
+  "homepage": "https://github.com/kiran3490/GulpBasicDemo#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1"
+  }
 }
